@@ -63,6 +63,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    padding-bottom: 10rem;
 }
 .smartest{
     display: flex;
@@ -70,12 +71,20 @@ a{
     justify-content: center;
     gap: 5rem;
     text-align: center;
+    width: 100%;
+}
+.c1{
+    width: 25%;
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h5{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -85,15 +94,127 @@ pat2{
 .take{
     display: flex;
 }
+.part2{
+    position: relative;
+}
 .part2 svg{
-    position: relative;
-    z-index: -1;
+    position: absolute;
+    bottom: 0;
 }
+
 .take{
-    position: relative;
-    z-index: 2;
-}
-.safe{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     position: relative;
     z-index: 1;
+}
+.take section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.safe{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+}
+.safe section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.b2{
+    background-color: #192440;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 10rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.part3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    gap: 3rem;
+}
+.plans{
+    display: flex;
+    gap: 5rem;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    
+}
+.plan1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #192440;
+    color: #ffffff;
+    padding: 5rem;
+    
+}
+.planprice{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.price{
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+}
+h6{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+}
+.content{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 1rem;
+}
+.b3{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 10rem;
+    color: #192440;
+    font-weight: bold;
+    border:double 2px;
+}
+.b4{
+    background-color: #00ffad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 10rem;
+    color: #192440;
+    font-weight: bold;
+    border:double 2px;
 }
