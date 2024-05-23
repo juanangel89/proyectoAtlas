@@ -24,6 +24,7 @@ header{
     gap: 2rem;
 }
 .logo{
+    filter: invert();
     width: 5rem;
 }
 h1{
@@ -304,9 +305,16 @@ input{
     justify-content: space-between;
     padding: 3rem;
     background-color: #192440;
+    
+}
+ul{
+    display: flex;
+    gap: 0.5rem;
 }
 i{
     border-radius: 50%;
     background-color: #ffffff;
-    font-size: 60px;
+    font-size: 33px;
+    color: #192440;
+    padding: 1rem;
 }
